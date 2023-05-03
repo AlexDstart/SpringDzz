@@ -13,6 +13,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class AppConfig {
+
     @Bean(name = "car")
     public Car getCarBean() {
         return new Car("BMW", "X5", 5.0, CarBody.CROSSOVER, VehicleType.CAR);

@@ -47,6 +47,7 @@ public class Bus extends Transport {
 
     @Override
     public boolean equals(Object o) {
+
         if (this == o) return true;
         if (!(o instanceof Bus bus)) return false;
         if (!super.equals(o)) return false;

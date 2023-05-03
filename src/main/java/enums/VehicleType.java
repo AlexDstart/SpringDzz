@@ -13,6 +13,7 @@ public enum VehicleType {
 
     public String getTypeTranslate() {
 
+
         return typeTranslate;
     }
 

@@ -48,6 +48,7 @@ public abstract class Transport {
 
     @Override
     public boolean equals(Object o) {
+
         if (this == o) return true;
         if (!(o instanceof Transport transport)) return false;
         return Double.compare(transport.getEngineVolume(), getEngineVolume()) == 0 && Objects.equals(getBrand(), transport.getBrand()) && Objects.equals(getModel(), transport.getModel());
