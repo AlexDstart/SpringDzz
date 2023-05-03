@@ -18,6 +18,7 @@ public enum LoadCapacity {
     }
 
     public Float getUpLimit() {
+
         return upLimit;
     }
 

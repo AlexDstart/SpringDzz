@@ -54,7 +54,8 @@ public abstract class Transport {
     }
 
     @Override
-    public int hashCode() {
+    public int hashCode()
+    {
         return Objects.hash(getBrand(), getModel(), getEngineVolume());
     }
 }

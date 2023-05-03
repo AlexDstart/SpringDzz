@@ -55,6 +55,7 @@ public class Bus extends Transport {
 
     @Override
     public int hashCode() {
+
         return Objects.hash(super.hashCode(), getCapacity(), getVehicleType());
     }
 }

@@ -16,6 +16,7 @@ public class Car extends Transport {
     }
     @PostConstruct
     private void init() {
+
         System.out.println(getVehicleType() + " готов к работе");
     }
 

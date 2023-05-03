@@ -19,6 +19,7 @@ public enum CarBody {
 
     public String getCarBody() {
         return carBody;
+
     }
 
     @Override
